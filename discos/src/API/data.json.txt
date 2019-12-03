@@ -1,0 +1,20 @@
+{
+  "albums": [
+  {
+    "id": 1,
+    "artista": "Michael Jackson",
+    "titulo": "Thriller",
+    "fecha": "12/12/1998"
+  },{
+    "id": 2,
+    "artista": "Metallica",
+    "titulo": "One",
+    "fecha": "10/10/1988"
+  },{
+    "id": 3,
+    "artista": "Kiss",
+    "titulo": "Creatures of the Night",
+    "fecha": "01/01/1982"
+  }
+  ]
+}

@@ -1,9 +1,29 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>crearDisco</ion-title>
+  <ion-toolbar color="tertiary">
+    <ion-title>Crear Disco</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
+  <ion-item>
+    <ion-label>Artista</ion-label>
+    <ion-input [(ngModel)]="data.artista" placeholder="Digite artista"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Titulo</ion-label>
+    <ion-input [(ngModel)]="data.titulo" placeholder="Digite titulo"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Fecha</ion-label>
+    <ion-input [(ngModel)]="data.fecha" placeholder="Digite fecha(mm/dd/yyyy)"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-button (click)="submitForm()" [routerLink]="['/listar-discos']">
+      Agregar Album
+    </ion-button>
+  </ion-item>
 
 </ion-content>
